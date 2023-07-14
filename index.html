@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap 3</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<link href= "css/bootstrap.min.css" rel = "stylesheet">
+			<link href = "css/styles.css" rel = "stylesheet">
+	</head>
+	<body>
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class = "container">
+				<a href = "index.html" class= "navbar-brand">Taco Bell Website</a>
+
+				<button class= "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+					<span class= "icon-bar"></span>
+					<span class= "icon-bar"></span>
+					<span class= "icon-bar"></span>
+				</button>
+				<div class= "collapse navbar-collapse navHeaderCollapse">
+
+					<ul class = "nav navbar-nav navbar-right">
+
+						<li class = "active"><a href = "index.html">Home</a></li>
+						<li><a href= "read.html">Latest News</a></li>
+						<li class= "dropdown">
+
+						 	<a href= "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media<b class= "caret"></b></a>
+							<ul class= "dropdown-menu">
+								<li><a href= "https://twitter.com/tacobell?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
+								<li><a href= "https://m.facebook.com/tacobell/">Facebook</a></li>
+								<li><a href= "https://www.tacobell.com/">Official Website</a></li>
+								<li><a href= "https://www.instagram.com/tacobell/">Instagram</a></li>
+						</ul>		
+						</li>
+						<li><a href= "about.html">About</a></li>
+						<li><a href= "#contact" data-toggle="modal">Contact</a></li>
+					</ul>
+
+				</div>
+			</div>	
+		</div>
+
+		<div class = "container">
+
+			<div class= "jumbotron">
+				<center><h1><b>Taco Bell</b></h1>
+				<p>The Volcano Menu Is Back!</p>
+				<a href= "https://www.tacobell.com/food?&&&&gclid=1732a9892a6a17a08e30cd263bb9e7e8&gclsrc=3p.ds&msclkid=1732a9892a6a17a08e30cd263bb9e7e8&utm_source=bing&utm_medium=cpc&utm_campaign=EG_2023_Ecomm_NewAppUser_Brand_Website_National_Exact&utm_term=tacobell%20com&utm_content=EG_2023_Ecomm_NewAppUser_Brand_Website_StoreRadius_Website"> <button type="button" class="btn btn-light">Order Now!</button> </a>
+
+
+			</div>
+		</div>
+
+		<div class= "container">
+
+			<div class= "row">
+
+				<div class= "col-md-3">
+
+					<h3><b> Mexican Pizza Combo <b></h3>
+					<img class = "featuredImg" src = "img/Mexican.jpg" width="100%">
+					<a href= "https://www.tacobell.com/food/deals-and-combos/mexican-pizza-combo" class= "btn btn-default">Order Now</a>
+				</div>
+
+				<div class= "col-md-3">
+
+					<h3><b> 3 Crunchy Taco Supreme Combo <b></h3>
+					<img class = "featuredImg" src = "img/Crunchy.jpg" width="100%">
+					<a href= "https://www.tacobell.com/food/deals-and-combos/3-crunchy-or-soft-tacos-combo" class= "btn btn-default">Order Now</a>
+				</div>
+
+				<div class= "col-md-3">
+
+					<h3><b> Cheesy Gordita Crunch Deluxe Box <b></h3>
+					<img class = "featuredImg" src = "img/Cheesy.jpg" width="100%">
+					<a href= "https://www.tacobell.com/food/deals-and-combos/cheesy-gordita-crunch-deluxe-box" class= "btn btn-default">Order Now</a>
+				</div>
+
+				<div class= "col-md-3">
+
+					<h3><b> Chicken Quesadilla Combo <b></h3>
+					<img class = "featuredImg" src = "img/Chicken.jpg" width="100%">
+					<a href= "https://www.tacobell.com/food/deals-and-combos/chicken-quesadilla-combo" class= "btn btn-default"> Order Now</a>
+				</div>
+			</div>
+		</div>
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+			<div class= "container">
+				<p class= "navbar-text pull-left">Site Built By Aparna B</p>
+				<a href= "https://www.tacobell.com/food?&&&&gclid=1732a9892a6a17a08e30cd263bb9e7e8&gclsrc=3p.ds&msclkid=1732a9892a6a17a08e30cd263bb9e7e8&utm_source=bing&utm_medium=cpc&utm_campaign=EG_2023_Ecomm_NewAppUser_Brand_Website_National_Exact&utm_term=tacobell%20com&utm_content=EG_2023_Ecomm_NewAppUser_Brand_Website_StoreRadius_Website" class= "navbar-btn btn-danger btn pull-right">Official Taco Bell Website</a>
+			</div>
+
+		</div>
+
+		<div class = "modal fade" id = "contact" role = "dialog">
+			<div class= "modal-dialog">
+				<div class= "modal-content">
+					<form class= "form-horizontal">
+					<div class= "modal-header">
+						<h4> Contact Tech Site </h4>
+					</div>
+					<div class= "modal-body">
+						<div class= "form-group">
+							<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+							<div class= "col-lg-10">
+								<input type= "text" class = "form-control" id = "contact-name" placeholder = "Full Name">
+							</div>
+						</div>
+						<div class= "form-group">
+							<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+							<div class= "col-lg-10">
+								<input type= "email" class = "form-control" id = "contact-email" placeholder = "you@example.com">
+							</div>
+						</div>
+					<div class= "form-group">
+							<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+							<div class= "col-lg-10">
+								<textarea class = "form-control" rows = "8"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class= "modal-footer">
+						<a class = "btn btn-default" data-dismiss ="modal">Close</a>
+						<button class= "btn btn-primary" type= "submit">Send</button>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src = " http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
+		<script src = "js/bootstrap.js"></script>
+	</body>
+</html>
